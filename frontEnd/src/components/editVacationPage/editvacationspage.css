@@ -1,0 +1,117 @@
+/* Main container for the EditVacation page */
+.edit-vacation-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.edit-vacation-container h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styling */
+.edit-vacation-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Label and input styling */
+.edit-vacation-container label {
+  font-size: 16px;
+  color: #555;
+  font-weight: bold;
+}
+
+.edit-vacation-container input[type="text"],
+.edit-vacation-container input[type="number"],
+.edit-vacation-container input[type="date"],
+.edit-vacation-container input[type="file"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.edit-vacation-container textarea {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 5px;
+  resize: vertical;
+}
+
+/* Button styling */
+.edit-vacation-container button {
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.edit-vacation-container button:hover {
+  background-color: #45a049;
+}
+
+.edit-vacation-container button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+/* Error and success message styles */
+.edit-vacation-container p {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.edit-vacation-container p.server-success {
+  color: green;
+  font-size: 14px;
+}
+
+.edit-vacation-container img {
+  margin-top: 10px;
+  max-width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .edit-vacation-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .edit-vacation-container h1 {
+    font-size: 24px;
+  }
+
+  .edit-vacation-container label,
+  .edit-vacation-container input,
+  .edit-vacation-container button {
+    font-size: 14px;
+  }
+
+  .edit-vacation-container input[type="file"] {
+    width: auto;
+  }
+}

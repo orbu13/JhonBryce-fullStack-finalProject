@@ -1,0 +1,69 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0077b6; /* Nice blue shade */
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #00b4d8; /* Brighter blue for hover effect */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.navbar ul li span {
+  font-weight: bold;
+  color: #caf0f8; /* Light cyan for the welcome text */
+}
+
+.navbar ul li button {
+  background-color: #ff4d4d; /* Nice red shade for logout */
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar ul li button:hover {
+  background-color: #e63946; /* Darker red on hover */
+  transform: scale(1.1); /* Slight zoom */
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .navbar ul li {
+    justify-content: center;
+  }
+}

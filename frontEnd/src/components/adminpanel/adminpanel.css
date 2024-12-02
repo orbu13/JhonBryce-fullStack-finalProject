@@ -1,0 +1,46 @@
+.admin-panel-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.admin-panel-container nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-panel-container nav ul li {
+  margin: 15px 0;
+}
+
+.admin-panel-container nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #0077b6;
+  padding: 10px 20px;
+  background-color: #e0f7fa;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.admin-panel-container nav ul li a:hover {
+  background-color: #0077b6;
+  color: white;
+}
+
+.admin-panel-container nav ul li a:focus {
+  outline: none;
+  box-shadow: 0 0 5px #0077b6;
+}

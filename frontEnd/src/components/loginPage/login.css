@@ -1,0 +1,111 @@
+/* Main container for the Login page */
+.login-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+.login-container h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields and labels */
+.login-container label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Input field styles */
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="radio"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Styling for the radio buttons */
+.login-container input[type="radio"] {
+  width: auto;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+/* Button Styling */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+/* Error and success message styles */
+.login-container p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Error message specific styling */
+.login-container p {
+  color: red;
+}
+
+/* Success message specific styling */
+.login-container p.success {
+  color: green;
+}
+
+/* Display validation errors */
+.login-container ul {
+  color: red;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.login-container ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 15px;
+    width: 90%;
+  }
+
+  .login-container h1 {
+    font-size: 22px;
+  }
+
+  .login-container button {
+    font-size: 14px;
+  }
+
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    font-size: 14px;
+  }
+}

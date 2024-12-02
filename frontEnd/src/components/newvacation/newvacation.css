@@ -1,0 +1,112 @@
+/* Main container for the New Vacation page */
+.new-vacation-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+.new-vacation-container h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Label Styles */
+.new-vacation-container label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Input Fields */
+.new-vacation-container input[type="text"],
+.new-vacation-container input[type="date"],
+.new-vacation-container input[type="file"],
+.new-vacation-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Textarea Specific Styling */
+.new-vacation-container textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Button Styling */
+.new-vacation-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-vacation-container button:hover {
+  background-color: #45a049;
+}
+
+/* Error Message Styling */
+.new-vacation-container p {
+  font-size: 14px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Success Message Styling */
+.new-vacation-container p {
+  font-size: 14px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+/* Optional Image Preview */
+.new-vacation-container img {
+  max-width: 200px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+/* Adjust Input Field Width */
+.new-vacation-container input[type="text"],
+.new-vacation-container input[type="date"],
+.new-vacation-container textarea {
+  max-width: 100%;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .new-vacation-container {
+    padding: 15px;
+    width: 90%;
+  }
+
+  .new-vacation-container h1 {
+    font-size: 22px;
+  }
+
+  .new-vacation-container button {
+    font-size: 14px;
+  }
+
+  .new-vacation-container input[type="text"],
+  .new-vacation-container input[type="date"],
+  .new-vacation-container textarea {
+    font-size: 14px;
+  }
+}

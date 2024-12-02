@@ -1,0 +1,332 @@
+[
+  {
+    "vacationCode": "VC002",
+    "destination": "Paris",
+    "description": "Explore the Eiffel Tower and indulge in French cuisine.",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-15",
+    "price": 2200,
+    "image": "paris.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC003",
+    "destination": "Tokyo",
+    "description": "Experience the culture and cuisine of Japan's capital.",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-15",
+    "price": 2300,
+    "image": "tokyo.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC005",
+    "destination": "Sydney",
+    "description": "Visit the Sydney Opera House and Bondi Beach.",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-15",
+    "price": 2500,
+    "image": "sydney.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC006",
+    "destination": "Rome",
+    "description": "Discover ancient history and enjoy Italian delicacies.",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-15",
+    "price": 2600,
+    "image": "rome.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC007",
+    "destination": "Cape Town",
+    "description": "Experience wildlife and stunning coastal scenery.",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-15",
+    "price": 2700,
+    "image": "capetown.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC008",
+    "destination": "Bangkok",
+    "description": "Explore vibrant markets and taste authentic Thai food.",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-15",
+    "price": 2800,
+    "image": "bangkok.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC009",
+    "destination": "Dubai",
+    "description": "Enjoy luxury shopping and visit the Burj Khalifa.",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-15",
+    "price": 2900,
+    "image": "dubai.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC010",
+    "destination": "Rio de Janeiro",
+    "description": "Experience the Carnival and relax on Copacabana Beach.",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-15",
+    "price": 3000,
+    "image": "rio.jpg",
+    "followers": ["673f036957c549ce6501e573"]
+  },
+  {
+    "vacationCode": "VC011",
+    "destination": "Los Angeles",
+    "description": "Visit Hollywood and enjoy sunny beaches.",
+    "startDate": "2025-01-20",
+    "endDate": "2025-01-30",
+    "price": 2500,
+    "image": "losangeles.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC012",
+    "destination": "Las Vegas",
+    "description": "Experience the thrill of casinos and nightlife.",
+    "startDate": "2025-02-01",
+    "endDate": "2025-02-10",
+    "price": 1800,
+    "image": "lasvegas.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC013",
+    "destination": "Santorini",
+    "description": "Relax in picturesque white-and-blue settings.",
+    "startDate": "2025-03-10",
+    "endDate": "2025-03-18",
+    "price": 2800,
+    "image": "santorini.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC014",
+    "destination": "Istanbul",
+    "description": "Explore the cultural blend of Europe and Asia.",
+    "startDate": "2025-04-01",
+    "endDate": "2025-04-08",
+    "price": 1500,
+    "image": "istanbul.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC015",
+    "destination": "Seoul",
+    "description": "Immerse yourself in Korean food and culture.",
+    "startDate": "2025-05-05",
+    "endDate": "2025-05-15",
+    "price": 3200,
+    "image": "seoul.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC016",
+    "destination": "Bali",
+    "description": "Enjoy tropical beaches and serene landscapes.",
+    "startDate": "2025-06-01",
+    "endDate": "2025-06-12",
+    "price": 2600,
+    "image": "bali.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC017",
+    "destination": "Cairo",
+    "description": "Discover the Pyramids and ancient Egyptian history.",
+    "startDate": "2025-07-10",
+    "endDate": "2025-07-20",
+    "price": 2200,
+    "image": "cairo.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC018",
+    "destination": "Madrid",
+    "description": "Experience Spanish art and lively street culture.",
+    "startDate": "2025-08-05",
+    "endDate": "2025-08-15",
+    "price": 2000,
+    "image": "madrid.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC019",
+    "destination": "Singapore",
+    "description": "Explore the futuristic city-state with stunning gardens.",
+    "startDate": "2025-09-01",
+    "endDate": "2025-09-10",
+    "price": 3500,
+    "image": "singapore.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC020",
+    "destination": "Berlin",
+    "description": "Visit the Berlin Wall and dive into German history.",
+    "startDate": "2025-10-05",
+    "endDate": "2025-10-12",
+    "price": 1800,
+    "image": "berlin.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC021",
+    "destination": "Vienna",
+    "description": "Enjoy classical music and elegant architecture.",
+    "startDate": "2025-11-15",
+    "endDate": "2025-11-22",
+    "price": 2300,
+    "image": "vienna.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC022",
+    "destination": "Venice",
+    "description": "Take a gondola ride through beautiful canals.",
+    "startDate": "2025-12-10",
+    "endDate": "2025-12-18",
+    "price": 2400,
+    "image": "venice.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC023",
+    "destination": "Zurich",
+    "description": "Explore the scenic Swiss Alps and luxury shopping.",
+    "startDate": "2026-01-10",
+    "endDate": "2026-01-20",
+    "price": 3000,
+    "image": "zurich.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC024",
+    "destination": "San Francisco",
+    "description": "Visit the Golden Gate Bridge and Alcatraz Island.",
+    "startDate": "2026-02-05",
+    "endDate": "2026-02-12",
+    "price": 2600,
+    "image": "sanfrancisco.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC025",
+    "destination": "Melbourne",
+    "description": "Experience Australian culture and vibrant city life.",
+    "startDate": "2026-03-15",
+    "endDate": "2026-03-25",
+    "price": 2800,
+    "image": "melbourne.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC026",
+    "destination": "Hong Kong",
+    "description": "Enjoy bustling markets and breathtaking skylines.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-04-08",
+    "price": 2700,
+    "image": "hongkong.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC027",
+    "destination": "Manila",
+    "description": "Explore vibrant markets and taste authentic Thai food.",
+    "startDate": "2026-05-05",
+    "endDate": "2026-05-12",
+    "price": 2000,
+    "image": "manila.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC028",
+    "destination": "Athens",
+    "description": "Discover the ancient ruins and Greek history.",
+    "startDate": "2026-06-15",
+    "endDate": "2026-06-22",
+    "price": 2100,
+    "image": "athens.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC029",
+    "destination": "Oslo",
+    "description": "Luxury shopping and iconic skyscrapers.",
+    "startDate": "2026-07-10",
+    "endDate": "2026-07-20",
+    "price": 3500,
+    "image": "oslo.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC030",
+    "destination": "Miami",
+    "description": "Relax on stunning beaches and enjoy nightlife.",
+    "startDate": "2026-08-05",
+    "endDate": "2026-08-15",
+    "price": 2500,
+    "image": "miami.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC031",
+    "destination": "Stockholm",
+    "description": "Explore Scandinavian culture and design.",
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-08",
+    "price": 2600,
+    "image": "stockholm.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC032",
+    "destination": "Reykjavik",
+    "description": "Witness the Northern Lights and stunning landscapes.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-20",
+    "price": 3100,
+    "image": "reykjavik.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC033",
+    "destination": "Helsinki",
+    "description": "Visit this modern Nordic capital by the sea.",
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-12",
+    "price": 2000,
+    "image": "helsinki.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC034",
+    "destination": "Prague",
+    "description": "Enjoy medieval architecture and vibrant culture.",
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-18",
+    "price": 2300,
+    "image": "prague.jpg",
+    "followers": []
+  },
+  {
+    "vacationCode": "VC035",
+    "destination": "Lisbon",
+    "description": "Explore historic streets and stunning coastlines.",
+    "startDate": "2027-01-15",
+    "endDate": "2027-01-25",
+    "price": 1900,
+    "image": "lisbon.jpg",
+    "followers": []
+  }
+]
